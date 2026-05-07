@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>VoiceBee</title>
+        <link>https://github.com/answer2023/VoiceBee-Releases</link>
+        <description>Native macOS voice input — local-first, open source.</description>
+        <language>zh</language>
+
+        <item>
+            <title>v1.2.2</title>
+            <description><![CDATA[
+                <h2>v1.2.2</h2>
+                <ul>
+                  <li>更新 app 图标 — 复古金属麦克风</li>
+                  <li>修复:自动更新源迁移到公开 release feed,后续版本可正常推送</li>
+                </ul>
+            ]]></description>
+            <pubDate>Thu, 07 May 2026 15:03:06 +0000</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/answer2023/VoiceBee-Releases/releases/download/v1.2.2/VoiceBee-1.2.2.dmg"
+                sparkle:edSignature="7QlZQJu6cV/OxdhVYml0IqXHE3nlKwv1zDCb1inYfbFu1jpsllpF6A4cLCsj5wEBBlno6kFoT4gI8Y1WxW/uDA=="
+                length="2913972"
+                type="application/octet-stream" />
+        </item>
+
+        <!--
+            Manual reference template for future releases:
+            <item>
+                <title>vX.Y.Z</title>
+                <description><![CDATA[
+                    <h2>vX.Y.Z</h2>
+                    <ul><li>TODO: release notes</li></ul>
+                ]]></description>
+                <pubDate>RFC 822 date — `date -u +"%a, %d %b %Y %H:%M:%S +0000"`</pubDate>
+                <sparkle:version>BUILD</sparkle:version>
+                <sparkle:shortVersionString>X.Y.Z</sparkle:shortVersionString>
+                <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+                <enclosure
+                    url="https://github.com/answer2023/VoiceBee-Releases/releases/download/vX.Y.Z/VoiceBee-X.Y.Z.dmg"
+                    sparkle:edSignature="OUTPUT_OF_sign_update"
+                    length="DMG_SIZE_IN_BYTES"
+                    type="application/octet-stream" />
+            </item>
+        -->
+    </channel>
+</rss>

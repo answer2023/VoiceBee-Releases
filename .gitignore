@@ -1,0 +1,6 @@
+# Local DMG staging — never committed; uploaded as GitHub release assets instead.
+dist/
+*.dmg
+
+# macOS
+.DS_Store
