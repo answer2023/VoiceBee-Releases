@@ -7,6 +7,26 @@
         <language>zh</language>
 
         <item>
+            <title>v1.3.1</title>
+            <description><![CDATA[
+                <h2>v1.3.1</h2>
+                <ul>
+                  <li>录音更完整：松开快捷键后继续收音约 0.3 秒，避免最后一个字被截断</li>
+                  <li>新增隐私说明：首次启动展示数据去向；设置中新增「隐私」页，可查看完整隐私政策</li>
+                  <li>系统权限说明更新：如实告知使用 Apple 语音识别时音频可能由 Apple 服务器处理，需要完全本地可切换到 WhisperKit 引擎</li>
+                </ul>
+            ]]></description>
+            <pubDate>Thu, 24 Sep 2026 05:58:38 +0000</pubDate>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>1.3.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/answer2023/VoiceBee-Releases/releases/download/v1.3.1/VoiceBee-1.3.1.dmg"
+                sparkle:edSignature="2ixLgKQvM/GW/AeNkevDieKi0gLjhJPPMRJHJyT3wIHrXpEFYQHgINCbuQE89hOdX5YPBx3ll0oP9t/buLrpAg=="
+                length="6619777"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>v1.3.0</title>
             <description><![CDATA[
                 <h2>v1.3.0</h2>
