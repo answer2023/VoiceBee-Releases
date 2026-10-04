@@ -7,6 +7,24 @@
         <language>zh</language>
 
         <item>
+            <title>v1.3.2</title>
+            <description><![CDATA[
+                <h2>v1.3.2</h2>
+                <ul>
+                  <li>修复说完话后最后一两个字偶尔没有上屏的问题</li>
+                </ul>
+            ]]></description>
+            <pubDate>Sun, 04 Oct 2026 10:52:35 +0000</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>1.3.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/answer2023/VoiceBee-Releases/releases/download/v1.3.2/VoiceBee-1.3.2.dmg"
+                sparkle:edSignature="sQZmF/YAg7akBtMeWT3OL3PaOo2v3jNmGZ5KMt9vdBWosMWAXBj04szR2YZ/TOz2GUDVW2pFi4w+Q3rSpTbbAg=="
+                length="6633729"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>v1.3.1</title>
             <description><![CDATA[
                 <h2>v1.3.1</h2>
