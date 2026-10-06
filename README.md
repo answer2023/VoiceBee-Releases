@@ -11,8 +11,7 @@
 
 <p align="center">
   <img alt="macOS" src="https://img.shields.io/badge/macOS-14%2B-1f425f?style=flat-square" />
-  <img alt="Apple Silicon" src="https://img.shields.io/badge/Apple%20Silicon-required-805ad5?style=flat-square" />
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-2f855a?style=flat-square" />
+  <img alt="Price" src="https://img.shields.io/badge/price-free-2f855a?style=flat-square" />
   <img alt="Local-first" src="https://img.shields.io/badge/local--first-✓-2f855a?style=flat-square" />
 </p>
 
@@ -37,7 +36,7 @@ VoiceBee 是一款原生 macOS 语音输入工具:在任何文本框里按住快
 | 通道 / Channel | 链接 / URL |
 |---|---|
 | Latest release page | <https://github.com/answer2023/VoiceBee-Releases/releases/latest> |
-| Direct DMG (current: v1.2.2) | <https://github.com/answer2023/VoiceBee-Releases/releases/download/v1.2.2/VoiceBee-1.2.2.dmg> |
+| Direct DMG (always the latest version) | <https://github.com/answer2023/VoiceBee-Releases/releases/latest/download/VoiceBee.dmg> |
 
 > ⚠️ Current builds are **not yet notarized**. On first launch you may need to right-click the app → "Open" to bypass Gatekeeper. Notarization is on the roadmap.
 >
@@ -46,7 +45,7 @@ VoiceBee 是一款原生 macOS 语音输入工具:在任何文本框里按住快
 ## 系统要求 / System requirements
 
 - **macOS 14.0 (Sonoma)** or later
-- **Apple Silicon** (M1 / M2 / M3 / M4) — current builds are arm64 only; Intel Macs are not supported
+- The installer is a universal binary (Apple Silicon + Intel), but it is only tested on Apple Silicon
 - Microphone permission (prompted on first use)
 - Optional: Ollama for fully local polishing, or any OpenAI-compatible endpoint
 
@@ -56,7 +55,7 @@ _Screenshots coming soon._
 
 ## About this repository
 
-This repository hosts **public release artifacts only** for VoiceBee — DMG installers and the Sparkle update feed. The application source code lives in a separate, currently private repository.
+This repository hosts **public release artifacts only** for VoiceBee — DMG installers and the Sparkle update feed. The application source code lives in a separate private repository.
 
 - **DMG installers** — see the [Releases](https://github.com/answer2023/VoiceBee-Releases/releases) tab.
 - **Sparkle appcast** — [`appcast.xml`](./appcast.xml). The in-app auto-updater fetches this file from `raw.githubusercontent.com` to discover new versions.
@@ -65,4 +64,6 @@ If you have questions or feedback, please open an issue here.
 
 ## License
 
-[MIT](./LICENSE).
+VoiceBee is currently free to use. © 2026 ClearSky, all rights reserved — see [Terms of Use](./LICENSE) and [Third-Party Notices](./THIRD-PARTY-NOTICES.md).
+
+VoiceBee 目前可免费使用。© 2026 ClearSky,保留所有权利,详见[使用条款](./LICENSE)和[第三方许可声明](./THIRD-PARTY-NOTICES.md)。
